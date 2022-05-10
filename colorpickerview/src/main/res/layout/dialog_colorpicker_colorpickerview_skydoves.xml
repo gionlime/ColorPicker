@@ -34,7 +34,7 @@
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        app:selector="@drawable/wheel" />
+        app:selector="@drawable/sliding_block" />
 
     </FrameLayout>
 
@@ -51,7 +51,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="10dp"
-        app:selector_AlphaSlideBar="@drawable/wheel" />
+        app:selector_AlphaSlideBar="@drawable/sliding_block" />
     </FrameLayout>
 
     <FrameLayout
@@ -67,7 +67,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="10dp"
-        app:selector_BrightnessSlider="@drawable/wheel" />
+        app:selector_BrightnessSlider="@drawable/sliding_block" />
     </FrameLayout>
 
     <Space

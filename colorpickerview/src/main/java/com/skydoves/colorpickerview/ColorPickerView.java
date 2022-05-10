@@ -189,7 +189,7 @@ public class ColorPickerView extends FrameLayout implements LifecycleObserver {
     if (selectorDrawable != null) {
       selector.setImageDrawable(selectorDrawable);
     } else {
-      selector.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.wheel));
+      selector.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.sliding_block));
     }
     FrameLayout.LayoutParams selectorParam =
         new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);

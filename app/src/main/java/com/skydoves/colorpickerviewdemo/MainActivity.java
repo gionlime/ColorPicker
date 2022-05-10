@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
   /** changes selector image using drawable resource. */
   private void selector() {
     if (FLAG_SELECTOR) {
-      colorPickerView.setSelectorDrawable(ContextCompat.getDrawable(this, R.drawable.wheel));
+      colorPickerView.setSelectorDrawable(ContextCompat.getDrawable(this, R.drawable.sliding_block));
     } else {
       colorPickerView.setSelectorDrawable(ContextCompat.getDrawable(this, R.drawable.wheel_dark));
     }
