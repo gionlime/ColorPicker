@@ -17,25 +17,25 @@ apply plugin: 'kotlin-android'
 apply from: "$rootDir/dependencies.gradle"
 
 android {
-  compileSdkVersion versions.compileSdk
-  defaultConfig {
-    applicationId "com.skydoves.colorpickerviewdemo"
-    minSdkVersion versions.minSdk
-    targetSdkVersion versions.compileSdk
-    versionCode versions.versionCode
-    versionName versions.versionName
-  }
-  compileOptions {
-    sourceCompatibility JavaVersion.VERSION_11
-    targetCompatibility JavaVersion.VERSION_11
-  }
+    compileSdkVersion versions.compileSdk
+    defaultConfig {
+        applicationId "com.skydoves.colorpickerviewdemo"
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.compileSdk
+        versionCode versions.versionCode
+        versionName versions.versionName
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
 }
 
 dependencies {
-  implementation "com.google.android.material:material:$versions.googleMaterial"
-  implementation "com.github.skydoves:powermenu:$versions.powermenu"
-  implementation "com.jakewharton.timber:timber:$versions.timber"
-  implementation project(":colorpickerview")
+    implementation "com.google.android.material:material:$versions.googleMaterial"
+    implementation "com.github.skydoves:powermenu:$versions.powermenu"
+    implementation "com.jakewharton.timber:timber:$versions.timber"
+    implementation project(":colorpickerview")
 }
 
 apply from: "$rootDir/spotless.gradle"

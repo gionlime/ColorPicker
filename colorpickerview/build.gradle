@@ -18,20 +18,20 @@ apply plugin: 'org.jetbrains.dokka'
 apply from: "$rootDir/dependencies.gradle"
 
 android {
-  compileSdkVersion versions.compileSdk
-  defaultConfig {
-    minSdkVersion versions.minSdk
-    targetSdkVersion versions.compileSdk
-    versionCode versions.versionCode
-    versionName versions.versionName
-  }
-  buildFeatures {
-    viewBinding true
-  }
+    compileSdkVersion versions.compileSdk
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.compileSdk
+        versionCode versions.versionCode
+        versionName versions.versionName
+    }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
-  implementation "androidx.appcompat:appcompat:$versions.androidxAppcompat"
+    implementation "androidx.appcompat:appcompat:$versions.androidxAppcompat"
 }
 
 apply plugin: "com.vanniktech.maven.publish"

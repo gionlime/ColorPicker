@@ -23,11 +23,11 @@ import androidx.annotation.ColorInt;
  * triggered.
  */
 public interface ColorListener extends ColorPickerViewListener {
-  /**
-   * invoked by {@link com.skydoves.colorpickerview.ColorPickerView}.
-   *
-   * @param color the last selected color.
-   * @param fromUser triggered by the user(true) or not(false).
-   */
-  void onColorSelected(@ColorInt int color, boolean fromUser);
+    /**
+     * invoked by {@link com.skydoves.colorpickerview.ColorPickerView}.
+     *
+     * @param color    the last selected color.
+     * @param fromUser triggered by the user(true) or not(false).
+     */
+    void onColorSelected(@ColorInt int color, boolean fromUser);
 }
